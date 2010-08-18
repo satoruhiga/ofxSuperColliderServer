@@ -1,0 +1,5 @@
+example/build
+example/bin/*.app
+
+example/ofxSuperColliderServerExample.xcodeproj/*.mode1v3
+example/ofxSuperColliderServerExample.xcodeproj/*.pbxuser
