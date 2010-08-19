@@ -109,6 +109,48 @@
 		6059DD22121BEFF70066E53D /* SC_UnitDef.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DD09121BEFF70066E53D /* SC_UnitDef.cpp */; };
 		6059DD23121BEFF70066E53D /* SC_World.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DD0A121BEFF70066E53D /* SC_World.cpp */; };
 		6059DD24121BEFF70066E53D /* scsynth_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DD0B121BEFF70066E53D /* scsynth_main.cpp */; };
+		60BB2C74121DD68600DE977D /* BeatTrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C4B121DD68600DE977D /* BeatTrack.cpp */; };
+		60BB2C75121DD68600DE977D /* BeatTrack2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C4C121DD68600DE977D /* BeatTrack2.cpp */; };
+		60BB2C76121DD68600DE977D /* BinaryOpUGens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C4D121DD68600DE977D /* BinaryOpUGens.cpp */; };
+		60BB2C77121DD68600DE977D /* ChaosUGens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C4E121DD68600DE977D /* ChaosUGens.cpp */; };
+		60BB2C78121DD68600DE977D /* Convolution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C4F121DD68600DE977D /* Convolution.cpp */; };
+		60BB2C79121DD68600DE977D /* DelayUGens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C50121DD68600DE977D /* DelayUGens.cpp */; };
+		60BB2C7A121DD68600DE977D /* DemandUGens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C51121DD68600DE977D /* DemandUGens.cpp */; };
+		60BB2C7B121DD68600DE977D /* DiskIO_UGens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C52121DD68600DE977D /* DiskIO_UGens.cpp */; };
+		60BB2C7C121DD68600DE977D /* DynNoiseUGens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C53121DD68600DE977D /* DynNoiseUGens.cpp */; };
+		60BB2C7D121DD68600DE977D /* FeatureDetection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C54121DD68600DE977D /* FeatureDetection.cpp */; };
+		60BB2C7E121DD68600DE977D /* FFT_UGens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C55121DD68600DE977D /* FFT_UGens.cpp */; };
+		60BB2C7F121DD68600DE977D /* FFT2InterfaceTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C56121DD68600DE977D /* FFT2InterfaceTable.cpp */; };
+		60BB2C80121DD68600DE977D /* FFTInterfaceTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C57121DD68600DE977D /* FFTInterfaceTable.cpp */; };
+		60BB2C81121DD68600DE977D /* FilterUGens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C58121DD68600DE977D /* FilterUGens.cpp */; };
+		60BB2C82121DD68600DE977D /* GendynUGens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C59121DD68600DE977D /* GendynUGens.cpp */; };
+		60BB2C83121DD68600DE977D /* GrainUGens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C5A121DD68600DE977D /* GrainUGens.cpp */; };
+		60BB2C84121DD68600DE977D /* IOUGens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C5B121DD68600DE977D /* IOUGens.cpp */; };
+		60BB2C85121DD68600DE977D /* KeyboardUGens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C5C121DD68600DE977D /* KeyboardUGens.cpp */; };
+		60BB2C86121DD68600DE977D /* KeyTrack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C5D121DD68600DE977D /* KeyTrack.cpp */; };
+		60BB2C87121DD68600DE977D /* LFUGens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C5E121DD68600DE977D /* LFUGens.cpp */; };
+		60BB2C88121DD68600DE977D /* Loudness.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C5F121DD68600DE977D /* Loudness.cpp */; };
+		60BB2C89121DD68600DE977D /* MFCC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C60121DD68600DE977D /* MFCC.cpp */; };
+		60BB2C8A121DD68600DE977D /* ML_SpecStats.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C61121DD68600DE977D /* ML_SpecStats.cpp */; };
+		60BB2C8B121DD68600DE977D /* ML.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C62121DD68600DE977D /* ML.cpp */; };
+		60BB2C8C121DD68600DE977D /* MouseUGens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C63121DD68600DE977D /* MouseUGens.cpp */; };
+		60BB2C8D121DD68600DE977D /* MulAddUGens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C64121DD68600DE977D /* MulAddUGens.cpp */; };
+		60BB2C8E121DD68600DE977D /* NoiseUGens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C65121DD68600DE977D /* NoiseUGens.cpp */; };
+		60BB2C8F121DD68600DE977D /* Onsets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C66121DD68600DE977D /* Onsets.cpp */; };
+		60BB2C90121DD68600DE977D /* onsetsds.c in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C67121DD68600DE977D /* onsetsds.c */; };
+		60BB2C91121DD68600DE977D /* OscUGens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C68121DD68600DE977D /* OscUGens.cpp */; };
+		60BB2C92121DD68600DE977D /* PanUGens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C69121DD68600DE977D /* PanUGens.cpp */; };
+		60BB2C93121DD68600DE977D /* PartitionedConvolution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C6A121DD68600DE977D /* PartitionedConvolution.cpp */; };
+		60BB2C94121DD68600DE977D /* PhysicalModelingUGens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C6B121DD68600DE977D /* PhysicalModelingUGens.cpp */; };
+		60BB2C95121DD68600DE977D /* PV_ThirdParty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C6C121DD68600DE977D /* PV_ThirdParty.cpp */; };
+		60BB2C96121DD68600DE977D /* PV_UGens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C6D121DD68600DE977D /* PV_UGens.cpp */; };
+		60BB2C97121DD68600DE977D /* ReverbUGens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C6E121DD68600DE977D /* ReverbUGens.cpp */; };
+		60BB2C98121DD68600DE977D /* SCComplex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C6F121DD68600DE977D /* SCComplex.cpp */; };
+		60BB2C99121DD68600DE977D /* TestUGens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C70121DD68600DE977D /* TestUGens.cpp */; };
+		60BB2C9A121DD68600DE977D /* TriggerUGens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C71121DD68600DE977D /* TriggerUGens.cpp */; };
+		60BB2C9B121DD68600DE977D /* UnaryOpUGens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C72121DD68600DE977D /* UnaryOpUGens.cpp */; };
+		60BB2C9C121DD68600DE977D /* UnpackFFTUGens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BB2C73121DD68600DE977D /* UnpackFFTUGens.cpp */; };
+		60BB2D25121DD9CF00DE977D /* sndfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 60BB2D24121DD9CF00DE977D /* sndfile.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -214,6 +256,48 @@
 		6059DD09121BEFF70066E53D /* SC_UnitDef.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SC_UnitDef.cpp; path = "SuperCollider-Source/common/Source/server/SC_UnitDef.cpp"; sourceTree = "<group>"; };
 		6059DD0A121BEFF70066E53D /* SC_World.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SC_World.cpp; path = "SuperCollider-Source/common/Source/server/SC_World.cpp"; sourceTree = "<group>"; };
 		6059DD0B121BEFF70066E53D /* scsynth_main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = scsynth_main.cpp; path = "SuperCollider-Source/common/Source/server/scsynth_main.cpp"; sourceTree = "<group>"; };
+		60BB2C4B121DD68600DE977D /* BeatTrack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BeatTrack.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/BeatTrack.cpp"; sourceTree = "<absolute>"; };
+		60BB2C4C121DD68600DE977D /* BeatTrack2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BeatTrack2.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/BeatTrack2.cpp"; sourceTree = "<absolute>"; };
+		60BB2C4D121DD68600DE977D /* BinaryOpUGens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BinaryOpUGens.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/BinaryOpUGens.cpp"; sourceTree = "<absolute>"; };
+		60BB2C4E121DD68600DE977D /* ChaosUGens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ChaosUGens.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/ChaosUGens.cpp"; sourceTree = "<absolute>"; };
+		60BB2C4F121DD68600DE977D /* Convolution.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Convolution.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/Convolution.cpp"; sourceTree = "<absolute>"; };
+		60BB2C50121DD68600DE977D /* DelayUGens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DelayUGens.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/DelayUGens.cpp"; sourceTree = "<absolute>"; };
+		60BB2C51121DD68600DE977D /* DemandUGens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DemandUGens.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/DemandUGens.cpp"; sourceTree = "<absolute>"; };
+		60BB2C52121DD68600DE977D /* DiskIO_UGens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DiskIO_UGens.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/DiskIO_UGens.cpp"; sourceTree = "<absolute>"; };
+		60BB2C53121DD68600DE977D /* DynNoiseUGens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DynNoiseUGens.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/DynNoiseUGens.cpp"; sourceTree = "<absolute>"; };
+		60BB2C54121DD68600DE977D /* FeatureDetection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FeatureDetection.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/FeatureDetection.cpp"; sourceTree = "<absolute>"; };
+		60BB2C55121DD68600DE977D /* FFT_UGens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FFT_UGens.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/FFT_UGens.cpp"; sourceTree = "<absolute>"; };
+		60BB2C56121DD68600DE977D /* FFT2InterfaceTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FFT2InterfaceTable.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/FFT2InterfaceTable.cpp"; sourceTree = "<absolute>"; };
+		60BB2C57121DD68600DE977D /* FFTInterfaceTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FFTInterfaceTable.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/FFTInterfaceTable.cpp"; sourceTree = "<absolute>"; };
+		60BB2C58121DD68600DE977D /* FilterUGens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FilterUGens.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/FilterUGens.cpp"; sourceTree = "<absolute>"; };
+		60BB2C59121DD68600DE977D /* GendynUGens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GendynUGens.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/GendynUGens.cpp"; sourceTree = "<absolute>"; };
+		60BB2C5A121DD68600DE977D /* GrainUGens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GrainUGens.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/GrainUGens.cpp"; sourceTree = "<absolute>"; };
+		60BB2C5B121DD68600DE977D /* IOUGens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IOUGens.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/IOUGens.cpp"; sourceTree = "<absolute>"; };
+		60BB2C5C121DD68600DE977D /* KeyboardUGens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = KeyboardUGens.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/KeyboardUGens.cpp"; sourceTree = "<absolute>"; };
+		60BB2C5D121DD68600DE977D /* KeyTrack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = KeyTrack.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/KeyTrack.cpp"; sourceTree = "<absolute>"; };
+		60BB2C5E121DD68600DE977D /* LFUGens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LFUGens.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/LFUGens.cpp"; sourceTree = "<absolute>"; };
+		60BB2C5F121DD68600DE977D /* Loudness.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Loudness.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/Loudness.cpp"; sourceTree = "<absolute>"; };
+		60BB2C60121DD68600DE977D /* MFCC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MFCC.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/MFCC.cpp"; sourceTree = "<absolute>"; };
+		60BB2C61121DD68600DE977D /* ML_SpecStats.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ML_SpecStats.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/ML_SpecStats.cpp"; sourceTree = "<absolute>"; };
+		60BB2C62121DD68600DE977D /* ML.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ML.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/ML.cpp"; sourceTree = "<absolute>"; };
+		60BB2C63121DD68600DE977D /* MouseUGens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MouseUGens.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/MouseUGens.cpp"; sourceTree = "<absolute>"; };
+		60BB2C64121DD68600DE977D /* MulAddUGens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MulAddUGens.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/MulAddUGens.cpp"; sourceTree = "<absolute>"; };
+		60BB2C65121DD68600DE977D /* NoiseUGens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NoiseUGens.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/NoiseUGens.cpp"; sourceTree = "<absolute>"; };
+		60BB2C66121DD68600DE977D /* Onsets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Onsets.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/Onsets.cpp"; sourceTree = "<absolute>"; };
+		60BB2C67121DD68600DE977D /* onsetsds.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = onsetsds.c; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/onsetsds.c"; sourceTree = "<absolute>"; };
+		60BB2C68121DD68600DE977D /* OscUGens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OscUGens.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/OscUGens.cpp"; sourceTree = "<absolute>"; };
+		60BB2C69121DD68600DE977D /* PanUGens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PanUGens.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/PanUGens.cpp"; sourceTree = "<absolute>"; };
+		60BB2C6A121DD68600DE977D /* PartitionedConvolution.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PartitionedConvolution.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/PartitionedConvolution.cpp"; sourceTree = "<absolute>"; };
+		60BB2C6B121DD68600DE977D /* PhysicalModelingUGens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PhysicalModelingUGens.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/PhysicalModelingUGens.cpp"; sourceTree = "<absolute>"; };
+		60BB2C6C121DD68600DE977D /* PV_ThirdParty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PV_ThirdParty.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/PV_ThirdParty.cpp"; sourceTree = "<absolute>"; };
+		60BB2C6D121DD68600DE977D /* PV_UGens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PV_UGens.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/PV_UGens.cpp"; sourceTree = "<absolute>"; };
+		60BB2C6E121DD68600DE977D /* ReverbUGens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ReverbUGens.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/ReverbUGens.cpp"; sourceTree = "<absolute>"; };
+		60BB2C6F121DD68600DE977D /* SCComplex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SCComplex.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/SCComplex.cpp"; sourceTree = "<absolute>"; };
+		60BB2C70121DD68600DE977D /* TestUGens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TestUGens.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/TestUGens.cpp"; sourceTree = "<absolute>"; };
+		60BB2C71121DD68600DE977D /* TriggerUGens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TriggerUGens.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/TriggerUGens.cpp"; sourceTree = "<absolute>"; };
+		60BB2C72121DD68600DE977D /* UnaryOpUGens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UnaryOpUGens.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/UnaryOpUGens.cpp"; sourceTree = "<absolute>"; };
+		60BB2C73121DD68600DE977D /* UnpackFFTUGens.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UnpackFFTUGens.cpp; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/Source/plugins/UnpackFFTUGens.cpp"; sourceTree = "<absolute>"; };
+		60BB2D24121DD9CF00DE977D /* sndfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sndfile.h; path = "/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/build_scsynth/SuperCollider-Source/common/include/libsndfile/sndfile.h"; sourceTree = "<absolute>"; };
 		D2AAC046055464E500DB518D /* libscsynth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libscsynth.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -231,19 +315,11 @@
 		08FB7794FE84155DC02AAC07 /* scsynth */ = {
 			isa = PBXGroup;
 			children = (
+				60BB2D1F121DD92C00DE977D /* libsndfile */,
 				6059DC51121BEF7A0066E53D /* SuperCollider */,
-				08FB7795FE84155DC02AAC07 /* Source */,
-				C6A0FF2B0290797F04C91782 /* Documentation */,
 				1AB674ADFE9D54B511CA2CBB /* Products */,
 			);
 			name = scsynth;
-			sourceTree = "<group>";
-		};
-		08FB7795FE84155DC02AAC07 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Source;
 			sourceTree = "<group>";
 		};
 		1AB674ADFE9D54B511CA2CBB /* Products */ = {
@@ -257,6 +333,7 @@
 		6059DC51121BEF7A0066E53D /* SuperCollider */ = {
 			isa = PBXGroup;
 			children = (
+				60BB2C3F121DD5A300DE977D /* plugins */,
 				6059DC52121BEF810066E53D /* plugin_interface */,
 				6059DC53121BEF8B0066E53D /* common */,
 				6059DC54121BEF900066E53D /* server */,
@@ -387,11 +464,68 @@
 			name = server;
 			sourceTree = "<group>";
 		};
-		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+		60BB2C3F121DD5A300DE977D /* plugins */ = {
 			isa = PBXGroup;
 			children = (
+				60BB2C4B121DD68600DE977D /* BeatTrack.cpp */,
+				60BB2C4C121DD68600DE977D /* BeatTrack2.cpp */,
+				60BB2C4D121DD68600DE977D /* BinaryOpUGens.cpp */,
+				60BB2C4E121DD68600DE977D /* ChaosUGens.cpp */,
+				60BB2C4F121DD68600DE977D /* Convolution.cpp */,
+				60BB2C50121DD68600DE977D /* DelayUGens.cpp */,
+				60BB2C51121DD68600DE977D /* DemandUGens.cpp */,
+				60BB2C52121DD68600DE977D /* DiskIO_UGens.cpp */,
+				60BB2C53121DD68600DE977D /* DynNoiseUGens.cpp */,
+				60BB2C54121DD68600DE977D /* FeatureDetection.cpp */,
+				60BB2C55121DD68600DE977D /* FFT_UGens.cpp */,
+				60BB2C56121DD68600DE977D /* FFT2InterfaceTable.cpp */,
+				60BB2C57121DD68600DE977D /* FFTInterfaceTable.cpp */,
+				60BB2C58121DD68600DE977D /* FilterUGens.cpp */,
+				60BB2C59121DD68600DE977D /* GendynUGens.cpp */,
+				60BB2C5A121DD68600DE977D /* GrainUGens.cpp */,
+				60BB2C5B121DD68600DE977D /* IOUGens.cpp */,
+				60BB2C5C121DD68600DE977D /* KeyboardUGens.cpp */,
+				60BB2C5D121DD68600DE977D /* KeyTrack.cpp */,
+				60BB2C5E121DD68600DE977D /* LFUGens.cpp */,
+				60BB2C5F121DD68600DE977D /* Loudness.cpp */,
+				60BB2C60121DD68600DE977D /* MFCC.cpp */,
+				60BB2C61121DD68600DE977D /* ML_SpecStats.cpp */,
+				60BB2C62121DD68600DE977D /* ML.cpp */,
+				60BB2C63121DD68600DE977D /* MouseUGens.cpp */,
+				60BB2C64121DD68600DE977D /* MulAddUGens.cpp */,
+				60BB2C65121DD68600DE977D /* NoiseUGens.cpp */,
+				60BB2C66121DD68600DE977D /* Onsets.cpp */,
+				60BB2C67121DD68600DE977D /* onsetsds.c */,
+				60BB2C68121DD68600DE977D /* OscUGens.cpp */,
+				60BB2C69121DD68600DE977D /* PanUGens.cpp */,
+				60BB2C6A121DD68600DE977D /* PartitionedConvolution.cpp */,
+				60BB2C6B121DD68600DE977D /* PhysicalModelingUGens.cpp */,
+				60BB2C6C121DD68600DE977D /* PV_ThirdParty.cpp */,
+				60BB2C6D121DD68600DE977D /* PV_UGens.cpp */,
+				60BB2C6E121DD68600DE977D /* ReverbUGens.cpp */,
+				60BB2C6F121DD68600DE977D /* SCComplex.cpp */,
+				60BB2C70121DD68600DE977D /* TestUGens.cpp */,
+				60BB2C71121DD68600DE977D /* TriggerUGens.cpp */,
+				60BB2C72121DD68600DE977D /* UnaryOpUGens.cpp */,
+				60BB2C73121DD68600DE977D /* UnpackFFTUGens.cpp */,
 			);
-			name = Documentation;
+			name = plugins;
+			sourceTree = "<group>";
+		};
+		60BB2D1F121DD92C00DE977D /* libsndfile */ = {
+			isa = PBXGroup;
+			children = (
+				60BB2D20121DD93600DE977D /* include */,
+			);
+			name = libsndfile;
+			sourceTree = "<group>";
+		};
+		60BB2D20121DD93600DE977D /* include */ = {
+			isa = PBXGroup;
+			children = (
+				60BB2D24121DD9CF00DE977D /* sndfile.h */,
+			);
+			name = include;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -469,6 +603,7 @@
 				6059DCF0121BEFE90066E53D /* SC_UnitDef.h in Headers */,
 				6059DCF1121BEFE90066E53D /* SC_UnitSpec.h in Headers */,
 				6059DCF2121BEFE90066E53D /* SC_WireSpec.h in Headers */,
+				60BB2D25121DD9CF00DE977D /* sndfile.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,6 +700,47 @@
 				6059DD22121BEFF70066E53D /* SC_UnitDef.cpp in Sources */,
 				6059DD23121BEFF70066E53D /* SC_World.cpp in Sources */,
 				6059DD24121BEFF70066E53D /* scsynth_main.cpp in Sources */,
+				60BB2C74121DD68600DE977D /* BeatTrack.cpp in Sources */,
+				60BB2C75121DD68600DE977D /* BeatTrack2.cpp in Sources */,
+				60BB2C76121DD68600DE977D /* BinaryOpUGens.cpp in Sources */,
+				60BB2C77121DD68600DE977D /* ChaosUGens.cpp in Sources */,
+				60BB2C78121DD68600DE977D /* Convolution.cpp in Sources */,
+				60BB2C79121DD68600DE977D /* DelayUGens.cpp in Sources */,
+				60BB2C7A121DD68600DE977D /* DemandUGens.cpp in Sources */,
+				60BB2C7B121DD68600DE977D /* DiskIO_UGens.cpp in Sources */,
+				60BB2C7C121DD68600DE977D /* DynNoiseUGens.cpp in Sources */,
+				60BB2C7D121DD68600DE977D /* FeatureDetection.cpp in Sources */,
+				60BB2C7E121DD68600DE977D /* FFT_UGens.cpp in Sources */,
+				60BB2C7F121DD68600DE977D /* FFT2InterfaceTable.cpp in Sources */,
+				60BB2C80121DD68600DE977D /* FFTInterfaceTable.cpp in Sources */,
+				60BB2C81121DD68600DE977D /* FilterUGens.cpp in Sources */,
+				60BB2C82121DD68600DE977D /* GendynUGens.cpp in Sources */,
+				60BB2C83121DD68600DE977D /* GrainUGens.cpp in Sources */,
+				60BB2C84121DD68600DE977D /* IOUGens.cpp in Sources */,
+				60BB2C85121DD68600DE977D /* KeyboardUGens.cpp in Sources */,
+				60BB2C86121DD68600DE977D /* KeyTrack.cpp in Sources */,
+				60BB2C87121DD68600DE977D /* LFUGens.cpp in Sources */,
+				60BB2C88121DD68600DE977D /* Loudness.cpp in Sources */,
+				60BB2C89121DD68600DE977D /* MFCC.cpp in Sources */,
+				60BB2C8A121DD68600DE977D /* ML_SpecStats.cpp in Sources */,
+				60BB2C8B121DD68600DE977D /* ML.cpp in Sources */,
+				60BB2C8C121DD68600DE977D /* MouseUGens.cpp in Sources */,
+				60BB2C8D121DD68600DE977D /* MulAddUGens.cpp in Sources */,
+				60BB2C8E121DD68600DE977D /* NoiseUGens.cpp in Sources */,
+				60BB2C8F121DD68600DE977D /* Onsets.cpp in Sources */,
+				60BB2C90121DD68600DE977D /* onsetsds.c in Sources */,
+				60BB2C91121DD68600DE977D /* OscUGens.cpp in Sources */,
+				60BB2C92121DD68600DE977D /* PanUGens.cpp in Sources */,
+				60BB2C93121DD68600DE977D /* PartitionedConvolution.cpp in Sources */,
+				60BB2C94121DD68600DE977D /* PhysicalModelingUGens.cpp in Sources */,
+				60BB2C95121DD68600DE977D /* PV_ThirdParty.cpp in Sources */,
+				60BB2C96121DD68600DE977D /* PV_UGens.cpp in Sources */,
+				60BB2C97121DD68600DE977D /* ReverbUGens.cpp in Sources */,
+				60BB2C98121DD68600DE977D /* SCComplex.cpp in Sources */,
+				60BB2C99121DD68600DE977D /* TestUGens.cpp in Sources */,
+				60BB2C9A121DD68600DE977D /* TriggerUGens.cpp in Sources */,
+				60BB2C9B121DD68600DE977D /* UnaryOpUGens.cpp in Sources */,
+				60BB2C9C121DD68600DE977D /* UnpackFFTUGens.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -619,11 +795,13 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = (
-					"-DNO_LIBSNDFILE",
+					"-DNDEBUG",
 					"-DSC_DARWIN",
+					"-DSTATIC_PLUGINS",
 				);
 				PREBINDING = NO;
 				SDKROOT = macosx10.5;

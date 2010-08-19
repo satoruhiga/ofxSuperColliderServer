@@ -21,6 +21,7 @@
 		6059DF3C121BFC3F0066E53D /* ofxOscMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DF34121BFC3F0066E53D /* ofxOscMessage.cpp */; };
 		6059DF3D121BFC3F0066E53D /* ofxOscReceiver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DF36121BFC3F0066E53D /* ofxOscReceiver.cpp */; };
 		6059DF3E121BFC3F0066E53D /* ofxOscSender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DF38121BFC3F0066E53D /* ofxOscSender.cpp */; };
+		60BB2D3A121DDD3600DE977D /* libsndfile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60BB2D39121DDD3600DE977D /* libsndfile.a */; };
 		E45BE0AA0E8CC67C009D7055 /* GLee.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE0A90E8CC67C009D7055 /* GLee.a */; };
 		E45BE2E40E8CC69C009D7055 /* rtAudio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE2E30E8CC69C009D7055 /* rtAudio.a */; };
 		E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9710E8CC7DD009D7055 /* AGL.framework */; };
@@ -201,6 +202,7 @@
 		6059DF37121BFC3F0066E53D /* ofxOscReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxOscReceiver.h; sourceTree = "<group>"; };
 		6059DF38121BFC3F0066E53D /* ofxOscSender.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxOscSender.cpp; sourceTree = "<group>"; };
 		6059DF39121BFC3F0066E53D /* ofxOscSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxOscSender.h; sourceTree = "<group>"; };
+		60BB2D39121DDD3600DE977D /* libsndfile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsndfile.a; path = /Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/libs/supercollider/lib/libsndfile.a; sourceTree = "<absolute>"; };
 		E45BE0390E8CC647009D7055 /* FreeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FreeImage.h; path = ../../../libs/freeimage/include/FreeImage.h; sourceTree = SOURCE_ROOT; };
 		E45BE03F0E8CC650009D7055 /* fmod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fmod.h; path = ../../../libs/fmodex/include/fmod.h; sourceTree = SOURCE_ROOT; };
 		E45BE0400E8CC650009D7055 /* fmod.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = fmod.hpp; path = ../../../libs/fmodex/include/fmod.hpp; sourceTree = SOURCE_ROOT; };
@@ -273,6 +275,7 @@
 				E4C246DA10CCAE22004149E2 /* freeimage.a in Frameworks */,
 				6059DDD4121BF3F20066E53D /* libscsynth.a in Frameworks */,
 				6059DF3A121BFC3F0066E53D /* osc.a in Frameworks */,
+				60BB2D3A121DDD3600DE977D /* libsndfile.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +419,7 @@
 		6059DDD2121BF3F20066E53D /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				60BB2D39121DDD3600DE977D /* libsndfile.a */,
 				6059DDD3121BF3F20066E53D /* libscsynth.a */,
 			);
 			path = lib;
@@ -1022,6 +1026,7 @@
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_7)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+					/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/libs/supercollider/lib,
 				);
 				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../../addons/ofxOsc/libs/oscpack/lib/osx\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/freeimage/lib/osx\"";
@@ -1149,6 +1154,7 @@
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_7)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_8)",
+					/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/libs/supercollider/lib,
 				);
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/freeimage/lib/osx\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_14 = "\"$(SRCROOT)/../../../libs/fmodex/lib/osx\"";
@@ -1204,6 +1210,7 @@
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_7)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+					/Users/satoru/Documents/openFrameworks/openFrameworks/myaddons/ofxSuperColliderServerDev/libs/supercollider/lib,
 				);
 				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../../addons/ofxOsc/libs/oscpack/lib/osx\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/freeimage/lib/osx\"";

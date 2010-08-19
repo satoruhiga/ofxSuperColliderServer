@@ -8,3 +8,6 @@ example/ofxSuperColliderServerExample.xcodeproj/*.pbxuser
 build_scsynth/scsynth.xcodeproj/*.pbxuser
 build_scsynth/scsynth.xcodeproj/*.mode1v3
 build_scsynth/build
+build_scsynth/SuperCollider-3.4-Source.tar.gz
+build_scsynth/SuperCollider-Source
+

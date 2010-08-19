@@ -26,22 +26,6 @@ void ofxSuperColliderServer::init(int port, int samplerate, string plugin_dir, s
 		// options.mVerbosity = 1;
 		
 		//
-		// setup plugin dir
-		//
-		
-		plugin_dir = ofToDataPath(plugin_dir, true);
-		
-		stat(plugin_dir.c_str(), &fi);
-		
-		if (S_ISDIR(fi.st_mode) != 1)
-		{
-			ofLog(OF_LOG_ERROR, "open plugin directory failed '%s'\n", plugin_dir.c_str());
-			return;
-		}
-		
-		options.mUGensPluginPath = plugin_dir.c_str();
-		
-		//
 		// setup synthdef dir
 		//
 		
