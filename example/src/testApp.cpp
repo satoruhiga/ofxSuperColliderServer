@@ -8,6 +8,8 @@ ofxSCSynth *synth2 = NULL;
 
 //--------------------------------------------------------------
 void testApp::setup(){
+	ofSetVerticalSync(true);
+	ofSetFrameRate(60);
 	
 	ofxSuperColliderServer::init();
 

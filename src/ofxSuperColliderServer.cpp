@@ -13,7 +13,7 @@
 
 struct World *world = NULL;
 
-void ofxSuperColliderServer::init(int port, int samplerate, string plugin_dir, string synthdef_dir)
+void ofxSuperColliderServer::init(int port, int samplerate, string synthdef_dir)
 {
 	if (world == NULL)
 	{
@@ -30,22 +30,13 @@ void ofxSuperColliderServer::init(int port, int samplerate, string plugin_dir, s
 		//
 		
 		synthdef_dir = ofToDataPath(synthdef_dir, true);
-		stat(synthdef_dir.c_str(), &fi);
 		
-		if (S_ISDIR(fi.st_mode) != 1)
-		{
-			ofLog(OF_LOG_ERROR, "open synthdef directory failed '%s'\n", synthdef_dir.c_str());
-			return;
-		}
-		else
-		{
-			char resourceDir[1024];
-			sc_GetUserAppSupportDirectory(resourceDir, MAXPATHLEN);
-			sc_AppendToPath(resourceDir, "synthdefs");
-			
-			synthdef_dir += string(":") + string(resourceDir);
-			setenv("SC_SYNTHDEF_PATH", synthdef_dir.c_str(), 1);
-		}
+		char resourceDir[1024];
+		sc_GetUserAppSupportDirectory(resourceDir, MAXPATHLEN);
+		sc_AppendToPath(resourceDir, "synthdefs");
+		
+		synthdef_dir += string(":") + string(resourceDir);
+		setenv("SC_SYNTHDEF_PATH", synthdef_dir.c_str(), 1);
 		
 		//
 		// setup supercollider server
