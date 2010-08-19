@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6059DC6D121BEFAC0066E53D /* clz.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC55121BEFAC0066E53D /* clz.h */; };
+		6059DC6E121BEFAC0066E53D /* Hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC56121BEFAC0066E53D /* Hash.h */; };
+		6059DC6F121BEFAC0066E53D /* SC_BoundsMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC57121BEFAC0066E53D /* SC_BoundsMacros.h */; };
+		6059DC70121BEFAC0066E53D /* SC_BufGen.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC58121BEFAC0066E53D /* SC_BufGen.h */; };
+		6059DC71121BEFAC0066E53D /* SC_Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC59121BEFAC0066E53D /* SC_Constants.h */; };
+		6059DC72121BEFAC0066E53D /* SC_DemandUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC5A121BEFAC0066E53D /* SC_DemandUnit.h */; };
+		6059DC73121BEFAC0066E53D /* SC_FifoMsg.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC5B121BEFAC0066E53D /* SC_FifoMsg.h */; };
+		6059DC74121BEFAC0066E53D /* SC_Graph.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC5C121BEFAC0066E53D /* SC_Graph.h */; };
+		6059DC75121BEFAC0066E53D /* SC_InlineBinaryOp.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC5D121BEFAC0066E53D /* SC_InlineBinaryOp.h */; };
+		6059DC76121BEFAC0066E53D /* SC_InlineUnaryOp.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC5E121BEFAC0066E53D /* SC_InlineUnaryOp.h */; };
+		6059DC77121BEFAC0066E53D /* SC_InterfaceTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC5F121BEFAC0066E53D /* SC_InterfaceTable.h */; };
+		6059DC78121BEFAC0066E53D /* sc_msg_iter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC60121BEFAC0066E53D /* sc_msg_iter.h */; };
+		6059DC79121BEFAC0066E53D /* SC_Node.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC61121BEFAC0066E53D /* SC_Node.h */; };
+		6059DC7A121BEFAC0066E53D /* SC_PlugIn.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC62121BEFAC0066E53D /* SC_PlugIn.h */; };
+		6059DC7B121BEFAC0066E53D /* SC_Rate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC63121BEFAC0066E53D /* SC_Rate.h */; };
+		6059DC7C121BEFAC0066E53D /* SC_RGen.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC64121BEFAC0066E53D /* SC_RGen.h */; };
+		6059DC7D121BEFAC0066E53D /* SC_SndBuf.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC65121BEFAC0066E53D /* SC_SndBuf.h */; };
+		6059DC7E121BEFAC0066E53D /* SC_sndfile_stub.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC66121BEFAC0066E53D /* SC_sndfile_stub.h */; };
+		6059DC7F121BEFAC0066E53D /* SC_Types.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC67121BEFAC0066E53D /* SC_Types.h */; };
+		6059DC80121BEFAC0066E53D /* SC_Unit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC68121BEFAC0066E53D /* SC_Unit.h */; };
+		6059DC81121BEFAC0066E53D /* SC_Wire.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC69121BEFAC0066E53D /* SC_Wire.h */; };
+		6059DC82121BEFAC0066E53D /* SC_World.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC6A121BEFAC0066E53D /* SC_World.h */; };
+		6059DC83121BEFAC0066E53D /* SC_WorldOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC6B121BEFAC0066E53D /* SC_WorldOptions.h */; };
+		6059DC84121BEFAC0066E53D /* Unroll.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC6C121BEFAC0066E53D /* Unroll.h */; };
+		6059DC96121BEFC80066E53D /* dfftlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC85121BEFC80066E53D /* dfftlib.h */; };
+		6059DC97121BEFC80066E53D /* fftlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC86121BEFC80066E53D /* fftlib.h */; };
+		6059DC98121BEFC80066E53D /* SC_AllocPool.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC87121BEFC80066E53D /* SC_AllocPool.h */; };
+		6059DC99121BEFC80066E53D /* SC_Altivec.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC88121BEFC80066E53D /* SC_Altivec.h */; };
+		6059DC9A121BEFC80066E53D /* SC_DirUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC89121BEFC80066E53D /* SC_DirUtils.h */; };
+		6059DC9B121BEFC80066E53D /* SC_Endian.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC8A121BEFC80066E53D /* SC_Endian.h */; };
+		6059DC9C121BEFC80066E53D /* SC_fftlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC8B121BEFC80066E53D /* SC_fftlib.h */; };
+		6059DC9D121BEFC80066E53D /* SC_FIFO.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC8C121BEFC80066E53D /* SC_FIFO.h */; };
+		6059DC9E121BEFC80066E53D /* sc_popen.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC8D121BEFC80066E53D /* sc_popen.h */; };
+		6059DC9F121BEFC80066E53D /* SC_Reply.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC8E121BEFC80066E53D /* SC_Reply.h */; };
+		6059DCA0121BEFC80066E53D /* SC_Sem.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC8F121BEFC80066E53D /* SC_Sem.h */; };
+		6059DCA1121BEFC80066E53D /* SC_StandAloneInfo_Darwin.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC90121BEFC80066E53D /* SC_StandAloneInfo_Darwin.h */; };
+		6059DCA2121BEFC80066E53D /* SC_StringBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC91121BEFC80066E53D /* SC_StringBuffer.h */; };
+		6059DCA3121BEFC80066E53D /* SC_StringParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC92121BEFC80066E53D /* SC_StringParser.h */; };
+		6059DCA4121BEFC80066E53D /* SC_VFP11.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC93121BEFC80066E53D /* SC_VFP11.h */; };
+		6059DCA5121BEFC80066E53D /* SC_Win32Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC94121BEFC80066E53D /* SC_Win32Utils.h */; };
+		6059DCA6121BEFC80066E53D /* scsynthsend.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DC95121BEFC80066E53D /* scsynthsend.h */; };
+		6059DCB2121BEFD60066E53D /* fftlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 6059DCA7121BEFD60066E53D /* fftlib.c */; };
+		6059DCB3121BEFD60066E53D /* SC_AllocPool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DCA8121BEFD60066E53D /* SC_AllocPool.cpp */; };
+		6059DCB4121BEFD60066E53D /* SC_DirUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DCA9121BEFD60066E53D /* SC_DirUtils.cpp */; };
+		6059DCB5121BEFD60066E53D /* SC_fftlib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DCAA121BEFD60066E53D /* SC_fftlib.cpp */; };
+		6059DCB6121BEFD60066E53D /* sc_popen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DCAB121BEFD60066E53D /* sc_popen.cpp */; };
+		6059DCB7121BEFD60066E53D /* SC_Sem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DCAC121BEFD60066E53D /* SC_Sem.cpp */; };
+		6059DCB8121BEFD60066E53D /* SC_StandAloneInfo_Darwin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DCAD121BEFD60066E53D /* SC_StandAloneInfo_Darwin.cpp */; };
+		6059DCB9121BEFD60066E53D /* SC_StringBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DCAE121BEFD60066E53D /* SC_StringBuffer.cpp */; };
+		6059DCBA121BEFD60066E53D /* SC_StringParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DCAF121BEFD60066E53D /* SC_StringParser.cpp */; };
+		6059DCBB121BEFD60066E53D /* SC_Win32Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DCB0121BEFD60066E53D /* SC_Win32Utils.cpp */; };
+		6059DCBC121BEFD60066E53D /* scsynthsend.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DCB1121BEFD60066E53D /* scsynthsend.cpp */; };
+		6059DCD8121BEFE90066E53D /* HashTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DCBD121BEFE90066E53D /* HashTable.h */; };
+		6059DCD9121BEFE90066E53D /* MsgFifo.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DCBE121BEFE90066E53D /* MsgFifo.h */; };
+		6059DCDA121BEFE90066E53D /* OSC_Packet.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DCBF121BEFE90066E53D /* OSC_Packet.h */; };
+		6059DCDB121BEFE90066E53D /* PriorityQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DCC0121BEFE90066E53D /* PriorityQueue.h */; };
+		6059DCDC121BEFE90066E53D /* ReadWriteMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DCC1121BEFE90066E53D /* ReadWriteMacros.h */; };
+		6059DCDD121BEFE90066E53D /* Rendezvous.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DCC2121BEFE90066E53D /* Rendezvous.h */; };
+		6059DCDE121BEFE90066E53D /* SC_AU.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DCC3121BEFE90066E53D /* SC_AU.h */; };
+		6059DCDF121BEFE90066E53D /* SC_Complex.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DCC4121BEFE90066E53D /* SC_Complex.h */; };
+		6059DCE0121BEFE90066E53D /* SC_ComPort.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DCC5121BEFE90066E53D /* SC_ComPort.h */; };
+		6059DCE1121BEFE90066E53D /* SC_CoreAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DCC6121BEFE90066E53D /* SC_CoreAudio.h */; };
+		6059DCE2121BEFE90066E53D /* SC_Errors.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DCC7121BEFE90066E53D /* SC_Errors.h */; };
+		6059DCE3121BEFE90066E53D /* SC_GraphDef.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DCC8121BEFE90066E53D /* SC_GraphDef.h */; };
+		6059DCE4121BEFE90066E53D /* SC_Group.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DCC9121BEFE90066E53D /* SC_Group.h */; };
+		6059DCE5121BEFE90066E53D /* SC_HiddenWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DCCA121BEFE90066E53D /* SC_HiddenWorld.h */; };
+		6059DCE6121BEFE90066E53D /* SC_Lib_Cintf.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DCCB121BEFE90066E53D /* SC_Lib_Cintf.h */; };
+		6059DCE7121BEFE90066E53D /* SC_Lib.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DCCC121BEFE90066E53D /* SC_Lib.h */; };
+		6059DCE8121BEFE90066E53D /* SC_List.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DCCD121BEFE90066E53D /* SC_List.h */; };
+		6059DCE9121BEFE90066E53D /* SC_Lock.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DCCE121BEFE90066E53D /* SC_Lock.h */; };
+		6059DCEA121BEFE90066E53D /* SC_Prototypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DCCF121BEFE90066E53D /* SC_Prototypes.h */; };
+		6059DCEB121BEFE90066E53D /* SC_Samp.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DCD0121BEFE90066E53D /* SC_Samp.h */; };
+		6059DCEC121BEFE90066E53D /* SC_SequencedCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DCD1121BEFE90066E53D /* SC_SequencedCommand.h */; };
+		6059DCED121BEFE90066E53D /* SC_Str4.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DCD2121BEFE90066E53D /* SC_Str4.h */; };
+		6059DCEE121BEFE90066E53D /* SC_SyncCondition.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DCD3121BEFE90066E53D /* SC_SyncCondition.h */; };
+		6059DCEF121BEFE90066E53D /* SC_SynthDef.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DCD4121BEFE90066E53D /* SC_SynthDef.h */; };
+		6059DCF0121BEFE90066E53D /* SC_UnitDef.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DCD5121BEFE90066E53D /* SC_UnitDef.h */; };
+		6059DCF1121BEFE90066E53D /* SC_UnitSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DCD6121BEFE90066E53D /* SC_UnitSpec.h */; };
+		6059DCF2121BEFE90066E53D /* SC_WireSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059DCD7121BEFE90066E53D /* SC_WireSpec.h */; };
+		6059DD0C121BEFF70066E53D /* Rendezvous.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DCF3121BEFF70066E53D /* Rendezvous.cpp */; };
+		6059DD0D121BEFF70066E53D /* Samp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DCF4121BEFF70066E53D /* Samp.cpp */; };
+		6059DD0F121BEFF70066E53D /* SC_BufGen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DCF6121BEFF70066E53D /* SC_BufGen.cpp */; };
+		6059DD10121BEFF70066E53D /* SC_Carbon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DCF7121BEFF70066E53D /* SC_Carbon.cpp */; };
+		6059DD11121BEFF70066E53D /* SC_Complex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DCF8121BEFF70066E53D /* SC_Complex.cpp */; };
+		6059DD12121BEFF70066E53D /* SC_ComPort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DCF9121BEFF70066E53D /* SC_ComPort.cpp */; };
+		6059DD13121BEFF70066E53D /* SC_CoreAudio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DCFA121BEFF70066E53D /* SC_CoreAudio.cpp */; };
+		6059DD14121BEFF70066E53D /* SC_Errors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DCFB121BEFF70066E53D /* SC_Errors.cpp */; };
+		6059DD15121BEFF70066E53D /* SC_Graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DCFC121BEFF70066E53D /* SC_Graph.cpp */; };
+		6059DD16121BEFF70066E53D /* SC_GraphDef.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DCFD121BEFF70066E53D /* SC_GraphDef.cpp */; };
+		6059DD17121BEFF70066E53D /* SC_Group.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DCFE121BEFF70066E53D /* SC_Group.cpp */; };
+		6059DD19121BEFF70066E53D /* SC_Lib_Cintf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DD00121BEFF70066E53D /* SC_Lib_Cintf.cpp */; };
+		6059DD1A121BEFF70066E53D /* SC_Lib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DD01121BEFF70066E53D /* SC_Lib.cpp */; };
+		6059DD1B121BEFF70066E53D /* SC_MiscCmds.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DD02121BEFF70066E53D /* SC_MiscCmds.cpp */; };
+		6059DD1C121BEFF70066E53D /* SC_Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DD03121BEFF70066E53D /* SC_Node.cpp */; };
+		6059DD1D121BEFF70066E53D /* SC_Rate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DD04121BEFF70066E53D /* SC_Rate.cpp */; };
+		6059DD1E121BEFF70066E53D /* SC_SequencedCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DD05121BEFF70066E53D /* SC_SequencedCommand.cpp */; };
+		6059DD1F121BEFF70066E53D /* SC_Str4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DD06121BEFF70066E53D /* SC_Str4.cpp */; };
+		6059DD20121BEFF70066E53D /* SC_SyncCondition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DD07121BEFF70066E53D /* SC_SyncCondition.cpp */; };
+		6059DD21121BEFF70066E53D /* SC_Unit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DD08121BEFF70066E53D /* SC_Unit.cpp */; };
+		6059DD22121BEFF70066E53D /* SC_UnitDef.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DD09121BEFF70066E53D /* SC_UnitDef.cpp */; };
+		6059DD23121BEFF70066E53D /* SC_World.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DD0A121BEFF70066E53D /* SC_World.cpp */; };
+		6059DD24121BEFF70066E53D /* scsynth_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6059DD0B121BEFF70066E53D /* scsynth_main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6059DC55121BEFAC0066E53D /* clz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = clz.h; path = "SuperCollider-Source/common/Headers/plugin_interface/clz.h"; sourceTree = "<group>"; };
+		6059DC56121BEFAC0066E53D /* Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Hash.h; path = "SuperCollider-Source/common/Headers/plugin_interface/Hash.h"; sourceTree = "<group>"; };
+		6059DC57121BEFAC0066E53D /* SC_BoundsMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_BoundsMacros.h; path = "SuperCollider-Source/common/Headers/plugin_interface/SC_BoundsMacros.h"; sourceTree = "<group>"; };
+		6059DC58121BEFAC0066E53D /* SC_BufGen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_BufGen.h; path = "SuperCollider-Source/common/Headers/plugin_interface/SC_BufGen.h"; sourceTree = "<group>"; };
+		6059DC59121BEFAC0066E53D /* SC_Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_Constants.h; path = "SuperCollider-Source/common/Headers/plugin_interface/SC_Constants.h"; sourceTree = "<group>"; };
+		6059DC5A121BEFAC0066E53D /* SC_DemandUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_DemandUnit.h; path = "SuperCollider-Source/common/Headers/plugin_interface/SC_DemandUnit.h"; sourceTree = "<group>"; };
+		6059DC5B121BEFAC0066E53D /* SC_FifoMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_FifoMsg.h; path = "SuperCollider-Source/common/Headers/plugin_interface/SC_FifoMsg.h"; sourceTree = "<group>"; };
+		6059DC5C121BEFAC0066E53D /* SC_Graph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_Graph.h; path = "SuperCollider-Source/common/Headers/plugin_interface/SC_Graph.h"; sourceTree = "<group>"; };
+		6059DC5D121BEFAC0066E53D /* SC_InlineBinaryOp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_InlineBinaryOp.h; path = "SuperCollider-Source/common/Headers/plugin_interface/SC_InlineBinaryOp.h"; sourceTree = "<group>"; };
+		6059DC5E121BEFAC0066E53D /* SC_InlineUnaryOp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_InlineUnaryOp.h; path = "SuperCollider-Source/common/Headers/plugin_interface/SC_InlineUnaryOp.h"; sourceTree = "<group>"; };
+		6059DC5F121BEFAC0066E53D /* SC_InterfaceTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_InterfaceTable.h; path = "SuperCollider-Source/common/Headers/plugin_interface/SC_InterfaceTable.h"; sourceTree = "<group>"; };
+		6059DC60121BEFAC0066E53D /* sc_msg_iter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sc_msg_iter.h; path = "SuperCollider-Source/common/Headers/plugin_interface/sc_msg_iter.h"; sourceTree = "<group>"; };
+		6059DC61121BEFAC0066E53D /* SC_Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_Node.h; path = "SuperCollider-Source/common/Headers/plugin_interface/SC_Node.h"; sourceTree = "<group>"; };
+		6059DC62121BEFAC0066E53D /* SC_PlugIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_PlugIn.h; path = "SuperCollider-Source/common/Headers/plugin_interface/SC_PlugIn.h"; sourceTree = "<group>"; };
+		6059DC63121BEFAC0066E53D /* SC_Rate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_Rate.h; path = "SuperCollider-Source/common/Headers/plugin_interface/SC_Rate.h"; sourceTree = "<group>"; };
+		6059DC64121BEFAC0066E53D /* SC_RGen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_RGen.h; path = "SuperCollider-Source/common/Headers/plugin_interface/SC_RGen.h"; sourceTree = "<group>"; };
+		6059DC65121BEFAC0066E53D /* SC_SndBuf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_SndBuf.h; path = "SuperCollider-Source/common/Headers/plugin_interface/SC_SndBuf.h"; sourceTree = "<group>"; };
+		6059DC66121BEFAC0066E53D /* SC_sndfile_stub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_sndfile_stub.h; path = "SuperCollider-Source/common/Headers/plugin_interface/SC_sndfile_stub.h"; sourceTree = "<group>"; };
+		6059DC67121BEFAC0066E53D /* SC_Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_Types.h; path = "SuperCollider-Source/common/Headers/plugin_interface/SC_Types.h"; sourceTree = "<group>"; };
+		6059DC68121BEFAC0066E53D /* SC_Unit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_Unit.h; path = "SuperCollider-Source/common/Headers/plugin_interface/SC_Unit.h"; sourceTree = "<group>"; };
+		6059DC69121BEFAC0066E53D /* SC_Wire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_Wire.h; path = "SuperCollider-Source/common/Headers/plugin_interface/SC_Wire.h"; sourceTree = "<group>"; };
+		6059DC6A121BEFAC0066E53D /* SC_World.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_World.h; path = "SuperCollider-Source/common/Headers/plugin_interface/SC_World.h"; sourceTree = "<group>"; };
+		6059DC6B121BEFAC0066E53D /* SC_WorldOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_WorldOptions.h; path = "SuperCollider-Source/common/Headers/plugin_interface/SC_WorldOptions.h"; sourceTree = "<group>"; };
+		6059DC6C121BEFAC0066E53D /* Unroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Unroll.h; path = "SuperCollider-Source/common/Headers/plugin_interface/Unroll.h"; sourceTree = "<group>"; };
+		6059DC85121BEFC80066E53D /* dfftlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dfftlib.h; path = "SuperCollider-Source/common/Headers/common/dfftlib.h"; sourceTree = "<group>"; };
+		6059DC86121BEFC80066E53D /* fftlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fftlib.h; path = "SuperCollider-Source/common/Headers/common/fftlib.h"; sourceTree = "<group>"; };
+		6059DC87121BEFC80066E53D /* SC_AllocPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_AllocPool.h; path = "SuperCollider-Source/common/Headers/common/SC_AllocPool.h"; sourceTree = "<group>"; };
+		6059DC88121BEFC80066E53D /* SC_Altivec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_Altivec.h; path = "SuperCollider-Source/common/Headers/common/SC_Altivec.h"; sourceTree = "<group>"; };
+		6059DC89121BEFC80066E53D /* SC_DirUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_DirUtils.h; path = "SuperCollider-Source/common/Headers/common/SC_DirUtils.h"; sourceTree = "<group>"; };
+		6059DC8A121BEFC80066E53D /* SC_Endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_Endian.h; path = "SuperCollider-Source/common/Headers/common/SC_Endian.h"; sourceTree = "<group>"; };
+		6059DC8B121BEFC80066E53D /* SC_fftlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_fftlib.h; path = "SuperCollider-Source/common/Headers/common/SC_fftlib.h"; sourceTree = "<group>"; };
+		6059DC8C121BEFC80066E53D /* SC_FIFO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_FIFO.h; path = "SuperCollider-Source/common/Headers/common/SC_FIFO.h"; sourceTree = "<group>"; };
+		6059DC8D121BEFC80066E53D /* sc_popen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sc_popen.h; path = "SuperCollider-Source/common/Headers/common/sc_popen.h"; sourceTree = "<group>"; };
+		6059DC8E121BEFC80066E53D /* SC_Reply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_Reply.h; path = "SuperCollider-Source/common/Headers/common/SC_Reply.h"; sourceTree = "<group>"; };
+		6059DC8F121BEFC80066E53D /* SC_Sem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_Sem.h; path = "SuperCollider-Source/common/Headers/common/SC_Sem.h"; sourceTree = "<group>"; };
+		6059DC90121BEFC80066E53D /* SC_StandAloneInfo_Darwin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_StandAloneInfo_Darwin.h; path = "SuperCollider-Source/common/Headers/common/SC_StandAloneInfo_Darwin.h"; sourceTree = "<group>"; };
+		6059DC91121BEFC80066E53D /* SC_StringBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_StringBuffer.h; path = "SuperCollider-Source/common/Headers/common/SC_StringBuffer.h"; sourceTree = "<group>"; };
+		6059DC92121BEFC80066E53D /* SC_StringParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_StringParser.h; path = "SuperCollider-Source/common/Headers/common/SC_StringParser.h"; sourceTree = "<group>"; };
+		6059DC93121BEFC80066E53D /* SC_VFP11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_VFP11.h; path = "SuperCollider-Source/common/Headers/common/SC_VFP11.h"; sourceTree = "<group>"; };
+		6059DC94121BEFC80066E53D /* SC_Win32Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_Win32Utils.h; path = "SuperCollider-Source/common/Headers/common/SC_Win32Utils.h"; sourceTree = "<group>"; };
+		6059DC95121BEFC80066E53D /* scsynthsend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = scsynthsend.h; path = "SuperCollider-Source/common/Headers/common/scsynthsend.h"; sourceTree = "<group>"; };
+		6059DCA7121BEFD60066E53D /* fftlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fftlib.c; path = "SuperCollider-Source/common/Source/common/fftlib.c"; sourceTree = "<group>"; };
+		6059DCA8121BEFD60066E53D /* SC_AllocPool.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SC_AllocPool.cpp; path = "SuperCollider-Source/common/Source/common/SC_AllocPool.cpp"; sourceTree = "<group>"; };
+		6059DCA9121BEFD60066E53D /* SC_DirUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SC_DirUtils.cpp; path = "SuperCollider-Source/common/Source/common/SC_DirUtils.cpp"; sourceTree = "<group>"; };
+		6059DCAA121BEFD60066E53D /* SC_fftlib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SC_fftlib.cpp; path = "SuperCollider-Source/common/Source/common/SC_fftlib.cpp"; sourceTree = "<group>"; };
+		6059DCAB121BEFD60066E53D /* sc_popen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sc_popen.cpp; path = "SuperCollider-Source/common/Source/common/sc_popen.cpp"; sourceTree = "<group>"; };
+		6059DCAC121BEFD60066E53D /* SC_Sem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SC_Sem.cpp; path = "SuperCollider-Source/common/Source/common/SC_Sem.cpp"; sourceTree = "<group>"; };
+		6059DCAD121BEFD60066E53D /* SC_StandAloneInfo_Darwin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SC_StandAloneInfo_Darwin.cpp; path = "SuperCollider-Source/common/Source/common/SC_StandAloneInfo_Darwin.cpp"; sourceTree = "<group>"; };
+		6059DCAE121BEFD60066E53D /* SC_StringBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SC_StringBuffer.cpp; path = "SuperCollider-Source/common/Source/common/SC_StringBuffer.cpp"; sourceTree = "<group>"; };
+		6059DCAF121BEFD60066E53D /* SC_StringParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SC_StringParser.cpp; path = "SuperCollider-Source/common/Source/common/SC_StringParser.cpp"; sourceTree = "<group>"; };
+		6059DCB0121BEFD60066E53D /* SC_Win32Utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SC_Win32Utils.cpp; path = "SuperCollider-Source/common/Source/common/SC_Win32Utils.cpp"; sourceTree = "<group>"; };
+		6059DCB1121BEFD60066E53D /* scsynthsend.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = scsynthsend.cpp; path = "SuperCollider-Source/common/Source/common/scsynthsend.cpp"; sourceTree = "<group>"; };
+		6059DCBD121BEFE90066E53D /* HashTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HashTable.h; path = "SuperCollider-Source/common/Headers/server/HashTable.h"; sourceTree = "<group>"; };
+		6059DCBE121BEFE90066E53D /* MsgFifo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MsgFifo.h; path = "SuperCollider-Source/common/Headers/server/MsgFifo.h"; sourceTree = "<group>"; };
+		6059DCBF121BEFE90066E53D /* OSC_Packet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSC_Packet.h; path = "SuperCollider-Source/common/Headers/server/OSC_Packet.h"; sourceTree = "<group>"; };
+		6059DCC0121BEFE90066E53D /* PriorityQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PriorityQueue.h; path = "SuperCollider-Source/common/Headers/server/PriorityQueue.h"; sourceTree = "<group>"; };
+		6059DCC1121BEFE90066E53D /* ReadWriteMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReadWriteMacros.h; path = "SuperCollider-Source/common/Headers/server/ReadWriteMacros.h"; sourceTree = "<group>"; };
+		6059DCC2121BEFE90066E53D /* Rendezvous.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rendezvous.h; path = "SuperCollider-Source/common/Headers/server/Rendezvous.h"; sourceTree = "<group>"; };
+		6059DCC3121BEFE90066E53D /* SC_AU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_AU.h; path = "SuperCollider-Source/common/Headers/server/SC_AU.h"; sourceTree = "<group>"; };
+		6059DCC4121BEFE90066E53D /* SC_Complex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_Complex.h; path = "SuperCollider-Source/common/Headers/server/SC_Complex.h"; sourceTree = "<group>"; };
+		6059DCC5121BEFE90066E53D /* SC_ComPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_ComPort.h; path = "SuperCollider-Source/common/Headers/server/SC_ComPort.h"; sourceTree = "<group>"; };
+		6059DCC6121BEFE90066E53D /* SC_CoreAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_CoreAudio.h; path = "SuperCollider-Source/common/Headers/server/SC_CoreAudio.h"; sourceTree = "<group>"; };
+		6059DCC7121BEFE90066E53D /* SC_Errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_Errors.h; path = "SuperCollider-Source/common/Headers/server/SC_Errors.h"; sourceTree = "<group>"; };
+		6059DCC8121BEFE90066E53D /* SC_GraphDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_GraphDef.h; path = "SuperCollider-Source/common/Headers/server/SC_GraphDef.h"; sourceTree = "<group>"; };
+		6059DCC9121BEFE90066E53D /* SC_Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_Group.h; path = "SuperCollider-Source/common/Headers/server/SC_Group.h"; sourceTree = "<group>"; };
+		6059DCCA121BEFE90066E53D /* SC_HiddenWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_HiddenWorld.h; path = "SuperCollider-Source/common/Headers/server/SC_HiddenWorld.h"; sourceTree = "<group>"; };
+		6059DCCB121BEFE90066E53D /* SC_Lib_Cintf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_Lib_Cintf.h; path = "SuperCollider-Source/common/Headers/server/SC_Lib_Cintf.h"; sourceTree = "<group>"; };
+		6059DCCC121BEFE90066E53D /* SC_Lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_Lib.h; path = "SuperCollider-Source/common/Headers/server/SC_Lib.h"; sourceTree = "<group>"; };
+		6059DCCD121BEFE90066E53D /* SC_List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_List.h; path = "SuperCollider-Source/common/Headers/server/SC_List.h"; sourceTree = "<group>"; };
+		6059DCCE121BEFE90066E53D /* SC_Lock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_Lock.h; path = "SuperCollider-Source/common/Headers/server/SC_Lock.h"; sourceTree = "<group>"; };
+		6059DCCF121BEFE90066E53D /* SC_Prototypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_Prototypes.h; path = "SuperCollider-Source/common/Headers/server/SC_Prototypes.h"; sourceTree = "<group>"; };
+		6059DCD0121BEFE90066E53D /* SC_Samp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_Samp.h; path = "SuperCollider-Source/common/Headers/server/SC_Samp.h"; sourceTree = "<group>"; };
+		6059DCD1121BEFE90066E53D /* SC_SequencedCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_SequencedCommand.h; path = "SuperCollider-Source/common/Headers/server/SC_SequencedCommand.h"; sourceTree = "<group>"; };
+		6059DCD2121BEFE90066E53D /* SC_Str4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_Str4.h; path = "SuperCollider-Source/common/Headers/server/SC_Str4.h"; sourceTree = "<group>"; };
+		6059DCD3121BEFE90066E53D /* SC_SyncCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_SyncCondition.h; path = "SuperCollider-Source/common/Headers/server/SC_SyncCondition.h"; sourceTree = "<group>"; };
+		6059DCD4121BEFE90066E53D /* SC_SynthDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_SynthDef.h; path = "SuperCollider-Source/common/Headers/server/SC_SynthDef.h"; sourceTree = "<group>"; };
+		6059DCD5121BEFE90066E53D /* SC_UnitDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_UnitDef.h; path = "SuperCollider-Source/common/Headers/server/SC_UnitDef.h"; sourceTree = "<group>"; };
+		6059DCD6121BEFE90066E53D /* SC_UnitSpec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_UnitSpec.h; path = "SuperCollider-Source/common/Headers/server/SC_UnitSpec.h"; sourceTree = "<group>"; };
+		6059DCD7121BEFE90066E53D /* SC_WireSpec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SC_WireSpec.h; path = "SuperCollider-Source/common/Headers/server/SC_WireSpec.h"; sourceTree = "<group>"; };
+		6059DCF3121BEFF70066E53D /* Rendezvous.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Rendezvous.cpp; path = "SuperCollider-Source/common/Source/server/Rendezvous.cpp"; sourceTree = "<group>"; };
+		6059DCF4121BEFF70066E53D /* Samp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Samp.cpp; path = "SuperCollider-Source/common/Source/server/Samp.cpp"; sourceTree = "<group>"; };
+		6059DCF6121BEFF70066E53D /* SC_BufGen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SC_BufGen.cpp; path = "SuperCollider-Source/common/Source/server/SC_BufGen.cpp"; sourceTree = "<group>"; };
+		6059DCF7121BEFF70066E53D /* SC_Carbon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SC_Carbon.cpp; path = "SuperCollider-Source/common/Source/server/SC_Carbon.cpp"; sourceTree = "<group>"; };
+		6059DCF8121BEFF70066E53D /* SC_Complex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SC_Complex.cpp; path = "SuperCollider-Source/common/Source/server/SC_Complex.cpp"; sourceTree = "<group>"; };
+		6059DCF9121BEFF70066E53D /* SC_ComPort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SC_ComPort.cpp; path = "SuperCollider-Source/common/Source/server/SC_ComPort.cpp"; sourceTree = "<group>"; };
+		6059DCFA121BEFF70066E53D /* SC_CoreAudio.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SC_CoreAudio.cpp; path = "SuperCollider-Source/common/Source/server/SC_CoreAudio.cpp"; sourceTree = "<group>"; };
+		6059DCFB121BEFF70066E53D /* SC_Errors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SC_Errors.cpp; path = "SuperCollider-Source/common/Source/server/SC_Errors.cpp"; sourceTree = "<group>"; };
+		6059DCFC121BEFF70066E53D /* SC_Graph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SC_Graph.cpp; path = "SuperCollider-Source/common/Source/server/SC_Graph.cpp"; sourceTree = "<group>"; };
+		6059DCFD121BEFF70066E53D /* SC_GraphDef.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SC_GraphDef.cpp; path = "SuperCollider-Source/common/Source/server/SC_GraphDef.cpp"; sourceTree = "<group>"; };
+		6059DCFE121BEFF70066E53D /* SC_Group.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SC_Group.cpp; path = "SuperCollider-Source/common/Source/server/SC_Group.cpp"; sourceTree = "<group>"; };
+		6059DD00121BEFF70066E53D /* SC_Lib_Cintf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SC_Lib_Cintf.cpp; path = "SuperCollider-Source/common/Source/server/SC_Lib_Cintf.cpp"; sourceTree = "<group>"; };
+		6059DD01121BEFF70066E53D /* SC_Lib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SC_Lib.cpp; path = "SuperCollider-Source/common/Source/server/SC_Lib.cpp"; sourceTree = "<group>"; };
+		6059DD02121BEFF70066E53D /* SC_MiscCmds.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SC_MiscCmds.cpp; path = "SuperCollider-Source/common/Source/server/SC_MiscCmds.cpp"; sourceTree = "<group>"; };
+		6059DD03121BEFF70066E53D /* SC_Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SC_Node.cpp; path = "SuperCollider-Source/common/Source/server/SC_Node.cpp"; sourceTree = "<group>"; };
+		6059DD04121BEFF70066E53D /* SC_Rate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SC_Rate.cpp; path = "SuperCollider-Source/common/Source/server/SC_Rate.cpp"; sourceTree = "<group>"; };
+		6059DD05121BEFF70066E53D /* SC_SequencedCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SC_SequencedCommand.cpp; path = "SuperCollider-Source/common/Source/server/SC_SequencedCommand.cpp"; sourceTree = "<group>"; };
+		6059DD06121BEFF70066E53D /* SC_Str4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SC_Str4.cpp; path = "SuperCollider-Source/common/Source/server/SC_Str4.cpp"; sourceTree = "<group>"; };
+		6059DD07121BEFF70066E53D /* SC_SyncCondition.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SC_SyncCondition.cpp; path = "SuperCollider-Source/common/Source/server/SC_SyncCondition.cpp"; sourceTree = "<group>"; };
+		6059DD08121BEFF70066E53D /* SC_Unit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SC_Unit.cpp; path = "SuperCollider-Source/common/Source/server/SC_Unit.cpp"; sourceTree = "<group>"; };
+		6059DD09121BEFF70066E53D /* SC_UnitDef.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SC_UnitDef.cpp; path = "SuperCollider-Source/common/Source/server/SC_UnitDef.cpp"; sourceTree = "<group>"; };
+		6059DD0A121BEFF70066E53D /* SC_World.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SC_World.cpp; path = "SuperCollider-Source/common/Source/server/SC_World.cpp"; sourceTree = "<group>"; };
+		6059DD0B121BEFF70066E53D /* scsynth_main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = scsynth_main.cpp; path = "SuperCollider-Source/common/Source/server/scsynth_main.cpp"; sourceTree = "<group>"; };
+		D2AAC046055464E500DB518D /* libscsynth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libscsynth.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D289987405E68DCB004EDB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* scsynth */ = {
+			isa = PBXGroup;
+			children = (
+				6059DC51121BEF7A0066E53D /* SuperCollider */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = scsynth;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC046055464E500DB518D /* libscsynth.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6059DC51121BEF7A0066E53D /* SuperCollider */ = {
+			isa = PBXGroup;
+			children = (
+				6059DC52121BEF810066E53D /* plugin_interface */,
+				6059DC53121BEF8B0066E53D /* common */,
+				6059DC54121BEF900066E53D /* server */,
+			);
+			name = SuperCollider;
+			sourceTree = "<group>";
+		};
+		6059DC52121BEF810066E53D /* plugin_interface */ = {
+			isa = PBXGroup;
+			children = (
+				6059DC55121BEFAC0066E53D /* clz.h */,
+				6059DC56121BEFAC0066E53D /* Hash.h */,
+				6059DC57121BEFAC0066E53D /* SC_BoundsMacros.h */,
+				6059DC58121BEFAC0066E53D /* SC_BufGen.h */,
+				6059DC59121BEFAC0066E53D /* SC_Constants.h */,
+				6059DC5A121BEFAC0066E53D /* SC_DemandUnit.h */,
+				6059DC5B121BEFAC0066E53D /* SC_FifoMsg.h */,
+				6059DC5C121BEFAC0066E53D /* SC_Graph.h */,
+				6059DC5D121BEFAC0066E53D /* SC_InlineBinaryOp.h */,
+				6059DC5E121BEFAC0066E53D /* SC_InlineUnaryOp.h */,
+				6059DC5F121BEFAC0066E53D /* SC_InterfaceTable.h */,
+				6059DC60121BEFAC0066E53D /* sc_msg_iter.h */,
+				6059DC61121BEFAC0066E53D /* SC_Node.h */,
+				6059DC62121BEFAC0066E53D /* SC_PlugIn.h */,
+				6059DC63121BEFAC0066E53D /* SC_Rate.h */,
+				6059DC64121BEFAC0066E53D /* SC_RGen.h */,
+				6059DC65121BEFAC0066E53D /* SC_SndBuf.h */,
+				6059DC66121BEFAC0066E53D /* SC_sndfile_stub.h */,
+				6059DC67121BEFAC0066E53D /* SC_Types.h */,
+				6059DC68121BEFAC0066E53D /* SC_Unit.h */,
+				6059DC69121BEFAC0066E53D /* SC_Wire.h */,
+				6059DC6A121BEFAC0066E53D /* SC_World.h */,
+				6059DC6B121BEFAC0066E53D /* SC_WorldOptions.h */,
+				6059DC6C121BEFAC0066E53D /* Unroll.h */,
+			);
+			name = plugin_interface;
+			sourceTree = "<group>";
+		};
+		6059DC53121BEF8B0066E53D /* common */ = {
+			isa = PBXGroup;
+			children = (
+				6059DC85121BEFC80066E53D /* dfftlib.h */,
+				6059DC86121BEFC80066E53D /* fftlib.h */,
+				6059DC87121BEFC80066E53D /* SC_AllocPool.h */,
+				6059DC88121BEFC80066E53D /* SC_Altivec.h */,
+				6059DC89121BEFC80066E53D /* SC_DirUtils.h */,
+				6059DC8A121BEFC80066E53D /* SC_Endian.h */,
+				6059DC8B121BEFC80066E53D /* SC_fftlib.h */,
+				6059DC8C121BEFC80066E53D /* SC_FIFO.h */,
+				6059DC8D121BEFC80066E53D /* sc_popen.h */,
+				6059DC8E121BEFC80066E53D /* SC_Reply.h */,
+				6059DC8F121BEFC80066E53D /* SC_Sem.h */,
+				6059DC90121BEFC80066E53D /* SC_StandAloneInfo_Darwin.h */,
+				6059DC91121BEFC80066E53D /* SC_StringBuffer.h */,
+				6059DC92121BEFC80066E53D /* SC_StringParser.h */,
+				6059DC93121BEFC80066E53D /* SC_VFP11.h */,
+				6059DC94121BEFC80066E53D /* SC_Win32Utils.h */,
+				6059DC95121BEFC80066E53D /* scsynthsend.h */,
+				6059DCA7121BEFD60066E53D /* fftlib.c */,
+				6059DCA8121BEFD60066E53D /* SC_AllocPool.cpp */,
+				6059DCA9121BEFD60066E53D /* SC_DirUtils.cpp */,
+				6059DCAA121BEFD60066E53D /* SC_fftlib.cpp */,
+				6059DCAB121BEFD60066E53D /* sc_popen.cpp */,
+				6059DCAC121BEFD60066E53D /* SC_Sem.cpp */,
+				6059DCAD121BEFD60066E53D /* SC_StandAloneInfo_Darwin.cpp */,
+				6059DCAE121BEFD60066E53D /* SC_StringBuffer.cpp */,
+				6059DCAF121BEFD60066E53D /* SC_StringParser.cpp */,
+				6059DCB0121BEFD60066E53D /* SC_Win32Utils.cpp */,
+				6059DCB1121BEFD60066E53D /* scsynthsend.cpp */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		6059DC54121BEF900066E53D /* server */ = {
+			isa = PBXGroup;
+			children = (
+				6059DCF3121BEFF70066E53D /* Rendezvous.cpp */,
+				6059DCF4121BEFF70066E53D /* Samp.cpp */,
+				6059DCF6121BEFF70066E53D /* SC_BufGen.cpp */,
+				6059DCF7121BEFF70066E53D /* SC_Carbon.cpp */,
+				6059DCF8121BEFF70066E53D /* SC_Complex.cpp */,
+				6059DCF9121BEFF70066E53D /* SC_ComPort.cpp */,
+				6059DCFA121BEFF70066E53D /* SC_CoreAudio.cpp */,
+				6059DCFB121BEFF70066E53D /* SC_Errors.cpp */,
+				6059DCFC121BEFF70066E53D /* SC_Graph.cpp */,
+				6059DCFD121BEFF70066E53D /* SC_GraphDef.cpp */,
+				6059DCFE121BEFF70066E53D /* SC_Group.cpp */,
+				6059DD00121BEFF70066E53D /* SC_Lib_Cintf.cpp */,
+				6059DD01121BEFF70066E53D /* SC_Lib.cpp */,
+				6059DD02121BEFF70066E53D /* SC_MiscCmds.cpp */,
+				6059DD03121BEFF70066E53D /* SC_Node.cpp */,
+				6059DD04121BEFF70066E53D /* SC_Rate.cpp */,
+				6059DD05121BEFF70066E53D /* SC_SequencedCommand.cpp */,
+				6059DD06121BEFF70066E53D /* SC_Str4.cpp */,
+				6059DD07121BEFF70066E53D /* SC_SyncCondition.cpp */,
+				6059DD08121BEFF70066E53D /* SC_Unit.cpp */,
+				6059DD09121BEFF70066E53D /* SC_UnitDef.cpp */,
+				6059DD0A121BEFF70066E53D /* SC_World.cpp */,
+				6059DD0B121BEFF70066E53D /* scsynth_main.cpp */,
+				6059DCBD121BEFE90066E53D /* HashTable.h */,
+				6059DCBE121BEFE90066E53D /* MsgFifo.h */,
+				6059DCBF121BEFE90066E53D /* OSC_Packet.h */,
+				6059DCC0121BEFE90066E53D /* PriorityQueue.h */,
+				6059DCC1121BEFE90066E53D /* ReadWriteMacros.h */,
+				6059DCC2121BEFE90066E53D /* Rendezvous.h */,
+				6059DCC3121BEFE90066E53D /* SC_AU.h */,
+				6059DCC4121BEFE90066E53D /* SC_Complex.h */,
+				6059DCC5121BEFE90066E53D /* SC_ComPort.h */,
+				6059DCC6121BEFE90066E53D /* SC_CoreAudio.h */,
+				6059DCC7121BEFE90066E53D /* SC_Errors.h */,
+				6059DCC8121BEFE90066E53D /* SC_GraphDef.h */,
+				6059DCC9121BEFE90066E53D /* SC_Group.h */,
+				6059DCCA121BEFE90066E53D /* SC_HiddenWorld.h */,
+				6059DCCB121BEFE90066E53D /* SC_Lib_Cintf.h */,
+				6059DCCC121BEFE90066E53D /* SC_Lib.h */,
+				6059DCCD121BEFE90066E53D /* SC_List.h */,
+				6059DCCE121BEFE90066E53D /* SC_Lock.h */,
+				6059DCCF121BEFE90066E53D /* SC_Prototypes.h */,
+				6059DCD0121BEFE90066E53D /* SC_Samp.h */,
+				6059DCD1121BEFE90066E53D /* SC_SequencedCommand.h */,
+				6059DCD2121BEFE90066E53D /* SC_Str4.h */,
+				6059DCD3121BEFE90066E53D /* SC_SyncCondition.h */,
+				6059DCD4121BEFE90066E53D /* SC_SynthDef.h */,
+				6059DCD5121BEFE90066E53D /* SC_UnitDef.h */,
+				6059DCD6121BEFE90066E53D /* SC_UnitSpec.h */,
+				6059DCD7121BEFE90066E53D /* SC_WireSpec.h */,
+			);
+			name = server;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC043055464E500DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6059DC6D121BEFAC0066E53D /* clz.h in Headers */,
+				6059DC6E121BEFAC0066E53D /* Hash.h in Headers */,
+				6059DC6F121BEFAC0066E53D /* SC_BoundsMacros.h in Headers */,
+				6059DC70121BEFAC0066E53D /* SC_BufGen.h in Headers */,
+				6059DC71121BEFAC0066E53D /* SC_Constants.h in Headers */,
+				6059DC72121BEFAC0066E53D /* SC_DemandUnit.h in Headers */,
+				6059DC73121BEFAC0066E53D /* SC_FifoMsg.h in Headers */,
+				6059DC74121BEFAC0066E53D /* SC_Graph.h in Headers */,
+				6059DC75121BEFAC0066E53D /* SC_InlineBinaryOp.h in Headers */,
+				6059DC76121BEFAC0066E53D /* SC_InlineUnaryOp.h in Headers */,
+				6059DC77121BEFAC0066E53D /* SC_InterfaceTable.h in Headers */,
+				6059DC78121BEFAC0066E53D /* sc_msg_iter.h in Headers */,
+				6059DC79121BEFAC0066E53D /* SC_Node.h in Headers */,
+				6059DC7A121BEFAC0066E53D /* SC_PlugIn.h in Headers */,
+				6059DC7B121BEFAC0066E53D /* SC_Rate.h in Headers */,
+				6059DC7C121BEFAC0066E53D /* SC_RGen.h in Headers */,
+				6059DC7D121BEFAC0066E53D /* SC_SndBuf.h in Headers */,
+				6059DC7E121BEFAC0066E53D /* SC_sndfile_stub.h in Headers */,
+				6059DC7F121BEFAC0066E53D /* SC_Types.h in Headers */,
+				6059DC80121BEFAC0066E53D /* SC_Unit.h in Headers */,
+				6059DC81121BEFAC0066E53D /* SC_Wire.h in Headers */,
+				6059DC82121BEFAC0066E53D /* SC_World.h in Headers */,
+				6059DC83121BEFAC0066E53D /* SC_WorldOptions.h in Headers */,
+				6059DC84121BEFAC0066E53D /* Unroll.h in Headers */,
+				6059DC96121BEFC80066E53D /* dfftlib.h in Headers */,
+				6059DC97121BEFC80066E53D /* fftlib.h in Headers */,
+				6059DC98121BEFC80066E53D /* SC_AllocPool.h in Headers */,
+				6059DC99121BEFC80066E53D /* SC_Altivec.h in Headers */,
+				6059DC9A121BEFC80066E53D /* SC_DirUtils.h in Headers */,
+				6059DC9B121BEFC80066E53D /* SC_Endian.h in Headers */,
+				6059DC9C121BEFC80066E53D /* SC_fftlib.h in Headers */,
+				6059DC9D121BEFC80066E53D /* SC_FIFO.h in Headers */,
+				6059DC9E121BEFC80066E53D /* sc_popen.h in Headers */,
+				6059DC9F121BEFC80066E53D /* SC_Reply.h in Headers */,
+				6059DCA0121BEFC80066E53D /* SC_Sem.h in Headers */,
+				6059DCA1121BEFC80066E53D /* SC_StandAloneInfo_Darwin.h in Headers */,
+				6059DCA2121BEFC80066E53D /* SC_StringBuffer.h in Headers */,
+				6059DCA3121BEFC80066E53D /* SC_StringParser.h in Headers */,
+				6059DCA4121BEFC80066E53D /* SC_VFP11.h in Headers */,
+				6059DCA5121BEFC80066E53D /* SC_Win32Utils.h in Headers */,
+				6059DCA6121BEFC80066E53D /* scsynthsend.h in Headers */,
+				6059DCD8121BEFE90066E53D /* HashTable.h in Headers */,
+				6059DCD9121BEFE90066E53D /* MsgFifo.h in Headers */,
+				6059DCDA121BEFE90066E53D /* OSC_Packet.h in Headers */,
+				6059DCDB121BEFE90066E53D /* PriorityQueue.h in Headers */,
+				6059DCDC121BEFE90066E53D /* ReadWriteMacros.h in Headers */,
+				6059DCDD121BEFE90066E53D /* Rendezvous.h in Headers */,
+				6059DCDE121BEFE90066E53D /* SC_AU.h in Headers */,
+				6059DCDF121BEFE90066E53D /* SC_Complex.h in Headers */,
+				6059DCE0121BEFE90066E53D /* SC_ComPort.h in Headers */,
+				6059DCE1121BEFE90066E53D /* SC_CoreAudio.h in Headers */,
+				6059DCE2121BEFE90066E53D /* SC_Errors.h in Headers */,
+				6059DCE3121BEFE90066E53D /* SC_GraphDef.h in Headers */,
+				6059DCE4121BEFE90066E53D /* SC_Group.h in Headers */,
+				6059DCE5121BEFE90066E53D /* SC_HiddenWorld.h in Headers */,
+				6059DCE6121BEFE90066E53D /* SC_Lib_Cintf.h in Headers */,
+				6059DCE7121BEFE90066E53D /* SC_Lib.h in Headers */,
+				6059DCE8121BEFE90066E53D /* SC_List.h in Headers */,
+				6059DCE9121BEFE90066E53D /* SC_Lock.h in Headers */,
+				6059DCEA121BEFE90066E53D /* SC_Prototypes.h in Headers */,
+				6059DCEB121BEFE90066E53D /* SC_Samp.h in Headers */,
+				6059DCEC121BEFE90066E53D /* SC_SequencedCommand.h in Headers */,
+				6059DCED121BEFE90066E53D /* SC_Str4.h in Headers */,
+				6059DCEE121BEFE90066E53D /* SC_SyncCondition.h in Headers */,
+				6059DCEF121BEFE90066E53D /* SC_SynthDef.h in Headers */,
+				6059DCF0121BEFE90066E53D /* SC_UnitDef.h in Headers */,
+				6059DCF1121BEFE90066E53D /* SC_UnitSpec.h in Headers */,
+				6059DCF2121BEFE90066E53D /* SC_WireSpec.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC045055464E500DB518D /* scsynth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91EB08733DB70010E9CD /* Build configuration list for PBXNativeTarget "scsynth" */;
+			buildPhases = (
+				60BB2B2E121DC5A500DE977D /* ShellScript */,
+				D2AAC043055464E500DB518D /* Headers */,
+				D2AAC044055464E500DB518D /* Sources */,
+				D289987405E68DCB004EDB86 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = scsynth;
+			productName = scsynth;
+			productReference = D2AAC046055464E500DB518D /* libscsynth.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "scsynth" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* scsynth */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC045055464E500DB518D /* scsynth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		60BB2B2E121DC5A500DE977D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "curl -L -o SuperCollider-3.4-Source.tar.gz \"http://sourceforge.net/projects/supercollider/files/Source/3.4/SuperCollider-3.4-Source.tar.gz/download?use_mirror=autoselect\"\ntar xvzf SuperCollider-3.4-Source.tar.gz";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC044055464E500DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6059DCB2121BEFD60066E53D /* fftlib.c in Sources */,
+				6059DCB3121BEFD60066E53D /* SC_AllocPool.cpp in Sources */,
+				6059DCB4121BEFD60066E53D /* SC_DirUtils.cpp in Sources */,
+				6059DCB5121BEFD60066E53D /* SC_fftlib.cpp in Sources */,
+				6059DCB6121BEFD60066E53D /* sc_popen.cpp in Sources */,
+				6059DCB7121BEFD60066E53D /* SC_Sem.cpp in Sources */,
+				6059DCB8121BEFD60066E53D /* SC_StandAloneInfo_Darwin.cpp in Sources */,
+				6059DCB9121BEFD60066E53D /* SC_StringBuffer.cpp in Sources */,
+				6059DCBA121BEFD60066E53D /* SC_StringParser.cpp in Sources */,
+				6059DCBB121BEFD60066E53D /* SC_Win32Utils.cpp in Sources */,
+				6059DCBC121BEFD60066E53D /* scsynthsend.cpp in Sources */,
+				6059DD0C121BEFF70066E53D /* Rendezvous.cpp in Sources */,
+				6059DD0D121BEFF70066E53D /* Samp.cpp in Sources */,
+				6059DD0F121BEFF70066E53D /* SC_BufGen.cpp in Sources */,
+				6059DD10121BEFF70066E53D /* SC_Carbon.cpp in Sources */,
+				6059DD11121BEFF70066E53D /* SC_Complex.cpp in Sources */,
+				6059DD12121BEFF70066E53D /* SC_ComPort.cpp in Sources */,
+				6059DD13121BEFF70066E53D /* SC_CoreAudio.cpp in Sources */,
+				6059DD14121BEFF70066E53D /* SC_Errors.cpp in Sources */,
+				6059DD15121BEFF70066E53D /* SC_Graph.cpp in Sources */,
+				6059DD16121BEFF70066E53D /* SC_GraphDef.cpp in Sources */,
+				6059DD17121BEFF70066E53D /* SC_Group.cpp in Sources */,
+				6059DD19121BEFF70066E53D /* SC_Lib_Cintf.cpp in Sources */,
+				6059DD1A121BEFF70066E53D /* SC_Lib.cpp in Sources */,
+				6059DD1B121BEFF70066E53D /* SC_MiscCmds.cpp in Sources */,
+				6059DD1C121BEFF70066E53D /* SC_Node.cpp in Sources */,
+				6059DD1D121BEFF70066E53D /* SC_Rate.cpp in Sources */,
+				6059DD1E121BEFF70066E53D /* SC_SequencedCommand.cpp in Sources */,
+				6059DD1F121BEFF70066E53D /* SC_Str4.cpp in Sources */,
+				6059DD20121BEFF70066E53D /* SC_SyncCondition.cpp in Sources */,
+				6059DD21121BEFF70066E53D /* SC_Unit.cpp in Sources */,
+				6059DD22121BEFF70066E53D /* SC_UnitDef.cpp in Sources */,
+				6059DD23121BEFF70066E53D /* SC_World.cpp in Sources */,
+				6059DD24121BEFF70066E53D /* scsynth_main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91EC08733DB70010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = scsynth;
+			};
+			name = Debug;
+		};
+		1DEB91ED08733DB70010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				PRODUCT_NAME = scsynth;
+			};
+			name = Release;
+		};
+		1DEB91F008733DB70010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-DNO_LIBSNDFILE",
+					"-DSC_DARWIN",
+				);
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		1DEB91F108733DB70010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = (
+					"-DNO_LIBSNDFILE",
+					"-DSC_DARWIN",
+				);
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91EB08733DB70010E9CD /* Build configuration list for PBXNativeTarget "scsynth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91EC08733DB70010E9CD /* Debug */,
+				1DEB91ED08733DB70010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "scsynth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91F008733DB70010E9CD /* Debug */,
+				1DEB91F108733DB70010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

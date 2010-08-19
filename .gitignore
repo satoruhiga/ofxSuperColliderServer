@@ -1,5 +1,10 @@
+.DS_Store
+
 example/build
 example/bin/*.app
-
 example/ofxSuperColliderServerExample.xcodeproj/*.mode1v3
 example/ofxSuperColliderServerExample.xcodeproj/*.pbxuser
+
+build_scsynth/scsynth.xcodeproj/*.pbxuser
+build_scsynth/scsynth.xcodeproj/*.mode1v3
+build_scsynth/build
