@@ -657,7 +657,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "curl -L -o SuperCollider-3.4-Source.tar.gz \"http://sourceforge.net/projects/supercollider/files/Source/3.4/SuperCollider-3.4-Source.tar.gz/download?use_mirror=autoselect\"\ntar xvzf SuperCollider-3.4-Source.tar.gz";
+			shellScript = "if [ ! -e SuperCollider-Source ]; then\n\ncurl -L -o SuperCollider-3.4-Source.tar.gz \"http://sourceforge.net/projects/supercollider/files/Source/3.4/SuperCollider-3.4-Source.tar.gz/download?use_mirror=autoselect\"\ntar xvzf SuperCollider-3.4-Source.tar.gz\n\nfi";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -780,6 +780,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "SuperCollider-Source/common/include/nova-simd";
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = (
 					"-DNO_LIBSNDFILE",
@@ -798,10 +799,12 @@
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "SuperCollider-Source/common/include/nova-simd";
 				OTHER_CFLAGS = (
 					"-DNDEBUG",
 					"-DSC_DARWIN",
 					"-DSTATIC_PLUGINS",
+					"-DNOVA_SIMD",
 				);
 				PREBINDING = NO;
 				SDKROOT = macosx10.5;
